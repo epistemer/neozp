@@ -18,11 +18,11 @@ and [the decisions](decisions.md) that answered it.
 
 | ✓ | Item | Done when |
 |---|---|---|
-| ☐ | Fixes within each package's terms (review §4.5, and F4 as a doc fix plus a clearer `handlers gen` error) | released |
-| ☐ | The amendments epistemer accepted on 2026-11-24 (the package Decision items on the neozp project) | released, one minor release per package |
-| ☐ | `handlers/middleware` (D4) | released, used by generated `Register` and `Mount` |
-| ☐ | The v1 lines in errors', auth's and genx's roadmaps say D2 | merged in each repository |
-| ☐ | Confab deletes its workarounds: `scripts/stub`, `internal/pg`, `flash.go`, `Recover`, the `postCode` recover, `dataLabel`, the double permission grants, `confab.css` | each deletion closes its finding |
+| ☑ | Fixes within each package's terms (review §4.5, and F4 as a doc fix plus a clearer `handlers gen` error) | released (2026-11-24) |
+| ☑ | The amendments epistemer accepted on 2026-11-24 (the package Decision items on the neozp project) | released: handlers v0.4.0, ui v0.5.0, models v0.5.1, cfgx v0.3.1, i18n v0.4.0, errors v0.2.0 |
+| ☑ | `handlers/middleware` (D4) | released in handlers v0.4.0 |
+| ☑ | The v1 lines in errors', auth's and genx's roadmaps say D2 | merged in each repository (2026-11-24) |
+| ☑ | Confab deletes its workarounds: `scripts/stub`, `internal/pg`, `flash.go`, `Recover`, the `postCode` recover, `dataLabel`, the double permission grants, `confab.css`'s F23 rule | [epistemer/example#2](https://github.com/epistemer/example/pull/2) (2026-11-25): 29 findings closed; F6, F13 and F18 deferred by epistemer; F33–F35 new |
 
 ## I2: Confab iteration 2, consolidation
 
