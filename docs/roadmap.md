@@ -58,11 +58,11 @@ iteration's code as its need (D5).
 
 ## New packages (D5)
 
-| Order | Package | Starts from |
-|---|---|---|
-| 1 | message delivery | Confab's outbox; auth's `Sender` |
-| 2 | file storage | Confab's `files.go`; ui's uploads, which store nothing |
-| 3 | jobs | I4's job; zp's scheduler as corroboration |
+| Order | Package | Starts from | State |
+|---|---|---|---|
+| 1 | [messages](https://github.com/epistemer/messages) | Confab's outbox; auth's `Sender` | brief written and reviewed (2026-11-24); questions with epistemer |
+| 2 | [files](https://github.com/epistemer/files) | Confab's `files.go`; ui's uploads, which store nothing | repository created (2026-11-24) |
+| 3 | [jobs](https://github.com/epistemer/jobs) | I4's job; zp's scheduler as corroboration | repository created (2026-11-24) |
 
 Each starts with a brief, then a locked interface, under the same terms as
 the other packages.
